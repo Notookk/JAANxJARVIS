@@ -80,5 +80,10 @@ function takeCommand(message) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
         speak(finalText);
-    }
+    } else if (message.includes("open telegram")) {
+        window.open("https://t.me/lll_notookk_lll", "_blank");
+        speak("Opening telegram...");
+    } else if (message.includes("open instagram")) {
+        window.open("https://www.instagram.com/", "_blank");
+        speak("Opening instagram...");
 }
