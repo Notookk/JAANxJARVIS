@@ -85,5 +85,6 @@ function takeCommand(message) {
         speak("Opening telegram...");
     } else if (message.includes("open instagram")) {
         window.open("https://www.instagram.com/", "_blank");
-        speak("Opening instagram...");
+        speak("Openinstagram...");
+    }
 }
